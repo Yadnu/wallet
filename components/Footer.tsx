@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { ModeToggle } from "./ui/theme-button";
 
 const Footer = () => {
   return (
@@ -8,10 +9,11 @@ const Footer = () => {
         <p className="text-primary tracking-tight">
           Designed and Developed by{" "}
           <Link href={"https://yadneyajoshi-git-master-yadnus-projects.vercel.app/"} className="font-bold">
-            Yadneya
+            <h1 className="bg-accent"> Yadneya</h1>
           </Link>
         </p>
       </div>
+      <ModeToggle />
     </section>
   );
 };
