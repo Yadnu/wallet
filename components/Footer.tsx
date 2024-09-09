@@ -8,12 +8,12 @@ const Footer = () => {
       <div className="flex justify-between py-8">
         <p className="text-primary tracking-tight">
           Designed and Developed by{" "}
-          <Link href={"https://yadneyajoshi-git-master-yadnus-projects.vercel.app/"} className="font-bold">
-            <p className="bg-accent"> Yadneya</p>
+          <Link href={"https://yadneyajoshi-git-master-yadnus-projects.vercel.app/"} className="font-bold bg-green-400">
+             Yadneya
           </Link>
         </p>
       </div>
-      <ModeToggle />
+      
     </section>
   );
 };
